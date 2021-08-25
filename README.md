@@ -3,3 +3,6 @@
 Модули: <br>
 discord.js v12.5.3<br>
 fs v0.0.1<br>
+<br>
+<br>
+<string> Буду рад звездочке ⭐</string>
