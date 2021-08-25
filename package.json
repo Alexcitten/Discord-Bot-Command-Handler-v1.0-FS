@@ -1,0 +1,18 @@
+{
+  "name": "commandhandler",
+  "version": "1.0.0",
+  "description": "Discord Bot Command Handler FS v1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commandhandler"
+  ],
+  "author": "Alexcitten#4983",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security"
+  }
+}
