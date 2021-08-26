@@ -6,12 +6,9 @@ const bot = new Discord.Client({
 const config = require('./config.json')
 bot.cmds = new Discord.Collection()
 
-
-// Обработчик команд
 fs.readdirSync('./cmds/').filter(file => file.endsWith('.js')).forEach(file => {
     bot.cmds.set(require(`./cmds/${file}`).help.name, require(`./cmds/${file}`));
 })
-
 
 
 bot.on('message', async message => {
